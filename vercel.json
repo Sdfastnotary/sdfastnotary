@@ -1,0 +1,39 @@
+{
+    "trailingSlash":  false,
+    "headers":  [
+                    {
+                        "headers":  [
+                                        {
+                                            "key":  "Strict-Transport-Security",
+                                            "value":  "max-age=31536000; includeSubDomains; preload"
+                                        },
+                                        {
+                                            "key":  "Content-Security-Policy",
+                                            "value":  "default-src \u0027self\u0027; script-src \u0027self\u0027; style-src \u0027self\u0027 https://fonts.googleapis.com; font-src \u0027self\u0027 https://fonts.gstatic.com; img-src \u0027self\u0027 data:; frame-src https://www.google.com https://maps.google.com; connect-src \u0027self\u0027 https://formspree.io; base-uri \u0027self\u0027; form-action \u0027self\u0027; frame-ancestors \u0027none\u0027; object-src \u0027none\u0027; upgrade-insecure-requests"
+                                        },
+                                        {
+                                            "key":  "X-Content-Type-Options",
+                                            "value":  "nosniff"
+                                        },
+                                        {
+                                            "key":  "X-Frame-Options",
+                                            "value":  "DENY"
+                                        },
+                                        {
+                                            "key":  "Referrer-Policy",
+                                            "value":  "strict-origin-when-cross-origin"
+                                        },
+                                        {
+                                            "key":  "Permissions-Policy",
+                                            "value":  "camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()"
+                                        },
+                                        {
+                                            "key":  "Cross-Origin-Opener-Policy",
+                                            "value":  "same-origin"
+                                        }
+                                    ],
+                        "source":  "/(.*)"
+                    }
+                ],
+    "cleanUrls":  false
+}
